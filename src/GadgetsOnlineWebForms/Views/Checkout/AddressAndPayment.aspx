@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<form runat="server">  
+<form>  
     <h2>Address And Payment</h2>
     <fieldset>
         <legend>Shipping Information</legend>
@@ -31,12 +31,8 @@
         <legend>Payment</legend>
         <p>We're running a promotion: all music is free with the promo code: "FREE"</p>
 
-        <div class="editor-label">
-            @Html.Label("Promo Code")
-        </div>
-        <div class="editor-field">
-            @Html.TextBox("PromoCode")
-        </div>
+        <div class="editor-label"><label for="PromoCode">Promo Code</label></div>
+        <div class="editor-field"><input class="text-box single-line" id="PromoCode" name="PromoCode" type="text" value="" /></div>
     </fieldset>
     <asp:Button runat="server" ID="btnSubmit" Text="Submit Order" OnClick="btnSubmit_click" />
 </form>

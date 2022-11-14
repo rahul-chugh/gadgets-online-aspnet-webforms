@@ -46,7 +46,7 @@
 
         <ul id="navlist">
                 <li><a href="/Views/Home/Index.aspx" id="current">Home</a></li>            
-                <li><a href="/Views/ShoppingCart/Index.aspx">ShoppingCart</a></li>            
+                <li><a href="/Views/ShoppingCart/ViewCart.aspx">ShoppingCart</a></li>            
         </ul>
         </div>
 

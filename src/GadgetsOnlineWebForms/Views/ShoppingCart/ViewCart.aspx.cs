@@ -1,5 +1,4 @@
-﻿using GadgetsOnline.Models;
-using GadgetsOnline.Services;
+﻿using GadgetsOnline.Services;
 using GadgetsOnlineWebForms.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -10,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace GadgetsOnlineWebForms.Views.ShoppingCart
 {
-    public partial class Index : System.Web.UI.Page
+    public partial class ViewCart : System.Web.UI.Page
     {
         protected ShoppingCartViewModel Model;
         protected void Page_Load(object sender, EventArgs e)

@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="GadgetsOnlineWebForms.Views.ShoppingCart.Index" %>
-
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ViewCart.aspx.cs" Inherits="GadgetsOnlineWebForms.Views.ShoppingCart.ViewCart" %>
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -73,7 +72,7 @@
     <% foreach (var item in Model.CartItems)
         {
             var productUrl = "/Views/Store/Details.aspx?productId=" + item.ProductId;
-            var removeFromCartUrl = "/Views/ShoppingCart/Index.aspx?removeFromCart=" + item.ProductId;
+            var removeFromCartUrl = "/Views/ShoppingCart/ViewCart.aspx?removeFromCart=" + item.ProductId;
             %>
     <tr id="row-<%=item.RecordId%>">
         <td>

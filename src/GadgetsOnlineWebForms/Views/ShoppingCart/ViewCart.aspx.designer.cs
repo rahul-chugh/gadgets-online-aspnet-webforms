@@ -11,7 +11,7 @@ namespace GadgetsOnlineWebForms.Views.ShoppingCart
 {
 
 
-    public partial class Index
+    public partial class ViewCart
     {
     }
 }

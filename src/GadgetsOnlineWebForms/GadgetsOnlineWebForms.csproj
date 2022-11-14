@@ -177,7 +177,7 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\Home\Index.aspx" />
-    <Content Include="Views\ShoppingCart\Index.aspx" />
+    <Content Include="Views\ShoppingCart\ViewCart.aspx" />
     <Content Include="Views\Store\Browse.aspx" />
     <Content Include="Views\Store\CategoryMenu.ascx" />
     <Content Include="Views\Store\Details.aspx" />
@@ -256,12 +256,12 @@
     <Compile Include="Views\Home\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\ShoppingCart\Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Views\ShoppingCart\ViewCart.aspx.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\ShoppingCart\Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Views\ShoppingCart\ViewCart.aspx.designer.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Store\Browse.aspx.cs">
       <DependentUpon>Browse.aspx</DependentUpon>

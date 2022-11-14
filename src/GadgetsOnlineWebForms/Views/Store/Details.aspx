@@ -22,7 +22,7 @@
             <%: String.Format("{0:F}", Model.Price)%>
         </p>
         <p class="button">
-            <a href="<%= "/Views/ShoppingCart/Index.aspx?addToCart=" + Model.ProductId %>">Add to cart</a>
+            <a href="<%= "/Views/ShoppingCart/ViewCart.aspx?addToCart=" + Model.ProductId %>">Add to cart</a>
         </p>
     </div>
 </asp:Content>
